@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#body {
+    background: linear-gradient(to right, rgb(96, 96, 129), rgb(47, 47, 255));
+}
+
+#div {
+    width: 30vw;
+    height: 45vh;
+    box-shadow: 0px 6px 8px 10px #443f3f;
+    transform: translate(0%, 65%);
+    background-color: transparent;
+    overflow: hidden;
+}
+
+p {
+    animation: p 10s infinite linear;
+}
+
+@keyframes p {
+    100% {
+        transform: translateX(350px);
+    }
+
+    0% {
+        transform: translateX(-350px);
+    }
+}
+
+#div1 {
+    width: 5%;
+    height: 25%;
+    animation: div1 7s infinite linear;
+}
+
+@keyframes div1 {
+    100% {
+        transform: translateY(250px);
+    }
+
+    0% {
+        transform: translateY(-450px);
+    }
+}
+
+#div2 {
+    width: 5%;
+    height: 25%;
+    left: 80%;
+    animation: div2 7s infinite linear;
+}
+
+@keyframes div2 {
+    0% {
+        transform: translateY(250px);
+    }
+
+    100% {
+        transform: translateY(-450px);
+    }
+}
+
+#div3 {
+    width: 5%;
+    height: 25%;
+    left: 55%;
+    z-index: 0;
+    animation: div3 7s infinite linear;
+}
+
+@keyframes div3 {
+    100% {
+        transform: translateY(250px);
+    }
+
+    0% {
+        transform: translateY(-450px);
+    }
+}
+
+#div4 {
+    width: 5%;
+    height: 25%;
+    left: 40%;
+    animation: div4 7s infinite linear;
+}
+
+@keyframes div4 {
+    0% {
+        transform: translateY(250px);
+    }
+
+    100% {
+        transform: translateY(-450px);
+    }
+}
+
+#div5 {
+    width: 5%;
+    height: 25%;
+    left: 20%;
+    animation: div5 7s infinite linear;
+}
+
+@keyframes div5 {
+    100% {
+        transform: translateY(250px);
+    }
+
+    0% {
+        transform: translateY(-450px);
+    }
+}
+
+#div6 {
+    width: 5%;
+    height: 25%;
+    left: 10%;
+    bottom: 20%;
+    animation: div6 7s infinite linear;
+}
+
+@keyframes div6 {
+    0% {
+        transform: translateY(250px);
+    }
+
+    100% {
+        transform: translateY(-450px);
+    }
+}
+
+#div7 {
+    width: 5%;
+    height: 25%;
+    left: 70%;
+    bottom: 30%;
+    animation: div7 7s infinite linear;
+}
+
+@keyframes div7 {
+    100% {
+        transform: translateY(250px);
+    }
+
+    0% {
+        transform: translateY(-450px);
+    }
+}
